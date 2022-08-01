@@ -1,25 +1,24 @@
 # General description of project
-> E.g. Building an inventory tracking system for my CCA
+> A selection of games involving dice including snake and ladders, yahtzee, shut the box and ludo
 
 #Goals of project
-> E.g. Streamline tracking and cataloguing of inventory to facilitate member loans, repairs & Semester stock-taking needs
+> Being able to play these games not only with another person but also with the computer without needing to buy a physical copy
 
 # Listing of features
-> List all the features in the fully functional app - you may choose to work on a subset of this listing to produce a MVP (minimum viable product) given constraint of time
+> 4 games which include visuals such as a map for snake and ladders and ludo, and a checklist for yahtzee. A working dice which can be used for all 4 games as well as the option to play against computer players or human players. These games can be selected through a selection screen when the programme is started
 
 # External Scanning
 > Are there similar apps / codebase that you found online that is similar to your project?  Provide link(s) to these projects and outline how will your project be different?
 
 # Listing of Key Use Cases
-> Yearly, CCA senior will do stock-take and will need to generate a report on the existing stock.
-> Start of school break, members will loan equipment and will need to return when school break ends.
+> For someone with or without other players to play these games without needing to buy a physical copy
 
 # Skills that my project requires me to pick up
-> List out the skills that you are not familiar with that is necessary due to the project scope.
+> Learning how to use OOP effectively in a project and managing files on a large-scale project. Using Github.
 
 # [Development Log](/devlog.md)
 > You will be updating this section regularly
-> - Week 5
+> - Week 5: coming up with project idea and fundamentals, as well as how OOP can be used in it.
 > - Week 6
 > - Week 7
 > - Week 8
