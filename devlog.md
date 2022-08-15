@@ -11,13 +11,18 @@
 
 ## Week 5 (26 Jul - 1 Aug)
 > Target: come up with project idea that fits the requirement of using OOP
-> Completed; came up with project idea fitting the requirement
+> Completed: came up with project idea fitting the requirement
 
 ## Week 6 (2 Aug - 8 Aug)
+> Target: create the object dice that can be printed and called
+> Completed: created dice object and 6 sides that can be printed
 
 ## Week 7 (9 Aug - 15 Aug)
+> create 2 out the 4 games before RIB
+> created Snake & Ladders and Shut the Box objects that can be printed and called
 
 ## Week 8 (16 Aug - 22 Aug)
+> create the 3rd out of the 4 games
 
 ## Week 9 (23 Aug - 29 Aug)
 
