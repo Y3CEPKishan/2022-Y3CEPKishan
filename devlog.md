@@ -18,13 +18,15 @@
 > Completed: created dice object and 6 sides that can be printed
 
 ## Week 7 (9 Aug - 15 Aug)
-> create 2 out the 4 games before RIB
-> created Snake & Ladders and Shut the Box objects that can be printed and called
+> Target: create 2 out the 4 games before RIB
+> Completed: created Snake & Ladders and Shut the Box objects that can be printed and called
 
 ## Week 8 (16 Aug - 22 Aug)
-> create the 3rd out of the 4 games
+> Target: create the 3rd out of the 4 games
+> Completed: Bug fixing and partially through the 3rd game
 
 ## Week 9 (23 Aug - 29 Aug)
+> Target: complete the 3rd game
 
 ## Week 10 (30 Aug - 5 Sep)
 
