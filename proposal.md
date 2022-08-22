@@ -21,6 +21,6 @@
 > - Week 5: coming up with project idea and fundamentals, as well as how OOP can be used in it.
 > - Week 6: creating the first object, the dice, to be used in all of the 4 games
 > - Week 7: creating 2 out of the 4 games
-> - Week 8
+> - Week 8: bug fixing and started on the 3rd game
 > - Week 9
 > - Week 10
