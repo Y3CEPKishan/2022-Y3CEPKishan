@@ -27,6 +27,7 @@
 
 ## Week 9 (23 Aug - 29 Aug)
 > Target: complete the 3rd game
+> Completed: Completed 3rd game
 
 ## Week 10 (30 Aug - 5 Sep)
 
