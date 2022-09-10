@@ -30,5 +30,8 @@
 > Completed: Completed 3rd game
 
 ## Week 10 (30 Aug - 5 Sep)
+> Target: complete the 4th game
+> Completed: Completed 4th game
 
 ## Sep Holiday (5 Sep - 10 Sep) **Submission date is 10 Sep**
+> added comments and bug fixes
