@@ -2,10 +2,14 @@
 class STB:
 
     def __init__(self):
+        # what numbers have been put down and what are left
+        
         self.usednum = []
         self.leftnum = [1,2,3,4,5,6,7,8,9]
 
     def diceRoll(self, num):
+        # ensuring that you can continue the game
+        
         self.roll = num
         check = 0
         for i in self.leftnum:
@@ -21,6 +25,9 @@ class STB:
             return 'cont'
 
     def pickNum(self, num1, num2 = 0):
+        # this is where the runfile enters the player inputs
+        # adderr means that the 2 numbers do not add to the dice rolls
+        # n2err and n1err means that the number has already been put down
         if num1 in self.leftnum:
             if num2 in self.leftnum or num2 == 0:
                 if num1 + num2 != self.roll:
@@ -45,6 +52,8 @@ class STB:
             return 'n1err'
 
     def printGame(self):
+        # printing the board
+        
         board = '''
  _____  _____  _____  _____  _____  _____  _____  _____  _____ 
 |     ||     ||     ||     ||     ||     ||     ||     ||     |
@@ -53,14 +62,16 @@ class STB:
 |     ||     ||     ||     ||     ||     ||     ||     ||     |
 |_____||_____||_____||_____||_____||_____||_____||_____||_____|
 '''
+        # displaying the number being put down
+
         fill = ' _____ '
         for e in self.usednum:
             index1 = ((e - 1) * 7) + 1
             for i in range(4):
                 board = board[:index1 + 64*i] + ' ' * 7 + board[64*i + index1 + 7:]
             board = board[:index1 + 64*4] + fill + board[64*4 + index1 + 7:]
-#           if e == 1:                              unused
-#                board = board[0] + board[2:]       code
+
+        # returning the board
         return board
             
                 
