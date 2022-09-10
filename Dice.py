@@ -4,7 +4,13 @@ import random
 class Dice:
     
     def __init__(self):
+
+        # random number from 1 to 6
+        
         self.num = random.randint(1,6)
+
+        # dice visuals
+        
         dice1 = '''
          _________
         |         |
@@ -73,20 +79,13 @@ class Dice:
             self.face = dice6
     
     def diceNum(self):
+        # easy access to the value of a dice roll
+        
         return self.num
         
     def __str__(self):
+        # printing the visuals
+        
         return self.face
 
 
-
-
-
-
-
-
-
-
-    
-    
-    
