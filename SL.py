@@ -3,17 +3,22 @@ class SL:
 
     def __init__(self):
         # symbol representing each player
+        
         self.player1 = '\u2660'
         self.player2 = '\u2663'
         self.player3 = '\u2665'
         self.player4 = '\u2666'
         # starting each player at 0
+        
         self.pos1 = 0
         self.pos2 = 0
         self.pos3 = 0
         self.pos4 = 0
 
     def playeradd(self,player,roll):
+
+        # the entrances and exits to snakes and ladders
+        
         entrances = [1,16,34,31,26,46,49,78,64,54,90,96,82]
         exits = [26,4,8,11,43,40,32,60,75,88,92,57,100]
         if player == 1:
@@ -26,6 +31,10 @@ class SL:
             self.pos4 += roll
         else:
             self.pos4 += roll
+
+        # if a player is at an entrace of a snake or ladder
+        # move them to the exit
+
         for i,e in enumerate(entrances):
             if self.pos1 == e:
                 self.pos1 = exits[i]
@@ -35,7 +44,9 @@ class SL:
                 self.pos3 = exits[i]
             if self.pos4 == e:
                 self.pos4 = exits[i]
-        #return (self.pos1,self.pos2,self.pos3,self.pos4)
+                
+        # determining if theres a winner
+                
         if self.pos1 >= 100:
             return 'win1'
         elif self.pos2 >= 100:
@@ -48,6 +59,8 @@ class SL:
             return 'cont'
     def printBoard(self):
 
+        # a board containing the player positions
+        
         board = '''
      _________________________________________________                           
     |100#|99  |98  |97  |96# |95  |94  |93  |92# |91  |                          
@@ -98,6 +111,11 @@ class SL:
 |82 ->100|
 |________|
 '''
+
+        # calculating each player's position on the board in terms of string index
+        # each player symbol cannnot overlap each other on the map
+        # thus the index has to be calculated for each player]
+        
         if self.pos1 != 0 and self.pos1 < 100:
             if ((self.pos1 - 1)//10)%2 == 0:
                 horizontal = (self.pos1 - 1) % 10
@@ -137,6 +155,10 @@ class SL:
                 vertical = (self.pos4 - 1) // 10
             index = (88 + 28 * 82) + (horizontal * 5) - (vertical * 82 * 3) + 3
             board = board[:index] + self.player4 + board[index + 1:]
+
+        # return the board
+        
         return board
         
             
+
