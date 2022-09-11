@@ -13,16 +13,15 @@ class STB:
         self.roll = num
         check = 0
         for i in self.leftnum:
-            self.leftnum.remove(i)
             if (self.roll - i) in self.leftnum or self.roll - i == 0:
                 check = 1
-            self.leftnum.append(i)
         if check == 0:
             return 'Game Over'
         elif len(self.leftnum) == 0:
             return 'You Win'
         else:
             return 'cont'
+
 
     def pickNum(self, num1, num2 = 0):
         # this is where the runfile enters the player inputs
